@@ -23,7 +23,7 @@
             android:layout_width="214dp"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
-            android:text="Nombre usuario" />
+            android:text="Luis Antonio" />
 
 
     </LinearLayout>

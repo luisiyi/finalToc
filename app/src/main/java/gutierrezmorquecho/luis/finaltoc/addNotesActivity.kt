@@ -79,7 +79,7 @@ class addNotesActivity : AppCompatActivity() {
                     "email" to usuario.currentUser!!.email.toString())
 
 
-                Toast.makeText(baseContext, nota.toString(), Toast.LENGTH_SHORT).show()
+                //Toast.makeText(baseContext, nota.toString(), Toast.LENGTH_SHORT).show()
                 //conexión al catalogo de firebase
                 storage.collection("notas")
                     .add(nota.toString())
